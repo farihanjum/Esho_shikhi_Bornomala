@@ -1,3 +1,48 @@
 <resources>
-    <string name="app_name">Esho_shikhi_Bornomala</string>
+    <string name="app_name">Esho_shkhi</string>
+
+    <string-array name="contentsStringArray">
+        <item> স্বরবর্ণ </item>
+        <item> ব্যঞ্জনবর্ণ  </item>
+        <item> চলো শিখি  </item>
+        <item> নতুন কিছু জানি  </item>
+        <item> Small letter </item>
+        <item> স্বরচিহ্ন  </item>
+        <item> সংখ্যা  </item>
+        <item> Numbers </item>
+        <item> মাসের নাম  </item>
+        <item> ঋতু  </item>
+
+    </string-array>
+
+
+
+    <string name="tab_text_1">অ</string>
+    <string name="tab_text_2">আ </string>
+    <string name="tab_text_3">ই </string>
+    <string name="tab_text_4">ঈ</string>
+    <string name="tab_text_5">উ </string>
+
+    <string name="tab_text_6">ঊ </string>
+    <string name="tab_text_7">ঋ  </string>
+    <string name="tab_text_8">এ</string>
+    <string name="tab_text_9">ঐ </string>
+    <string name="tab">ও</string>
+    <string name="tab_text_11">ঔ</string>
+
+
+    <string name="tab_text_12">ক </string>
+    <string name="tab_text_13">খ  </string>
+    <string name="tab_text_14">গ</string>
+    <string name="tab_text_15">ঘ </string>
+    <string name="tab_text_16">ঙ</string>
+
+
+    <string name="tab_text_17">চ</string>
+    <string name="tab_text_18">ছ </string>
+    <string name="tab_text_19">জ  </string>
+    <string name="tab_text_20">ঝ</string>
+    <string name="tab_text_21">ঞ </string>
+    <string name="title_activity_content_3">content_3</string>
+
 </resources>
