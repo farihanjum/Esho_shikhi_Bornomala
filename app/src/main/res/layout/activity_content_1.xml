@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".content_1">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/shore_o_id"
+            android:layout_width="130dp"
+            android:paddingLeft="5dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:onClick="clickNew"
+            android:src="@drawable/shore_o"
+            />
+
+        <ImageView
+            android:id="@+id/shore_a_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:onClick="clickNew"
+            android:src="@drawable/shore_a"
+            />
+
+
+        <ImageView
+            android:id="@+id/hrossho_e_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:onClick="clickNew"
+            android:src="@drawable/hrossho_e"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/dirgho_e_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:paddingLeft="5dp"
+            android:clickable="true"
+            android:onClick="clickNew"
+            android:src="@drawable/dirgho_e"
+            />
+        <ImageView
+            android:id="@+id/hrossho_u_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:src="@drawable/hrossho_u"
+            />
+
+        <ImageView
+            android:id="@+id/dirgho_u_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:src="@drawable/dirgho_u"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/hrii_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:paddingLeft="5dp"
+            android:clickable="true"
+            android:src="@drawable/hrii"
+            />
+
+        <ImageView
+            android:id="@+id/e_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:src="@drawable/e"
+            android:onClick="ekClick"
+            />
+
+
+        <ImageView
+            android:id="@+id/oiii_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:src="@drawable/oiii"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ooo_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:src="@drawable/ooo"
+            android:paddingLeft="5dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/ouu_id"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:clickable="true"
+            android:src="@drawable/ouu"
+            />
+
+
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vowel_chart_image_ikri"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
