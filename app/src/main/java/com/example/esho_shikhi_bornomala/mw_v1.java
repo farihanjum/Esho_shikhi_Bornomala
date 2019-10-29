@@ -90,86 +90,86 @@ public class mw_v1 extends AppCompatActivity {
         if(valueCheck.equals("v1")){
             card_front_image.setImageResource(R.drawable.v1_front);
             card_back_image.setImageResource(R.drawable.v1_back);
-            card_front_media = MediaPlayer.create(this,R.raw.v1_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v1_back_rec);
+            card_front_media = MediaPlayer.create(this,R.raw.v1_front);
+            card_back_media = MediaPlayer.create(this,R.raw.v1_back);
 
         }
 
         else  if(valueCheck.equals("v2")){
             card_front_image.setImageResource(R.drawable.v2_front);
             card_back_image.setImageResource(R.drawable.v2_back);
-            card_front_media = MediaPlayer.create(this,R.raw.v2_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v2_back_rec);
+            card_front_media = MediaPlayer.create(this,R.raw.v2_front);
+            card_back_media = MediaPlayer.create(this,R.raw.v2_back);
         }
 
         else  if(valueCheck.equals("v3")){
             card_front_image.setImageResource(R.drawable.v3_front);
             card_back_image.setImageResource(R.drawable.v3_back);
-            card_front_media = MediaPlayer.create(this,R.raw.v3_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v3_back_rec);
+            card_front_media = MediaPlayer.create(this,R.raw.v3_front);
+            card_back_media = MediaPlayer.create(this,R.raw.v3_back);
         }
 
         else  if(valueCheck.equals("v4")){
             card_front_image.setImageResource(R.drawable.v4_front);
             card_back_image.setImageResource(R.drawable.v4_back);
-            card_front_media = MediaPlayer.create(this,R.raw.v4_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v4_back_rec);
+            card_front_media = MediaPlayer.create(this,R.raw.v4_front);
+            card_back_media = MediaPlayer.create(this,R.raw.v4_back);
         }
 
         else  if(valueCheck.equals("v5")){
             card_front_image.setImageResource(R.drawable.v5_front);
             card_back_image.setImageResource(R.drawable.v5_back);
 
-            card_front_media = MediaPlayer.create(this,R.raw.v5_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v5_back_rec);
+            card_front_media = MediaPlayer.create(this,R.raw.v5_front);
+            card_back_media = MediaPlayer.create(this,R.raw.v5_back);
         }
 
         else  if(valueCheck.equals("v6")){
             card_front_image.setImageResource(R.drawable.v6_front);
             card_back_image.setImageResource(R.drawable.v6_back);
 
-            card_front_media = MediaPlayer.create(this,R.raw.v6_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v6_back_rec);
+           // card_front_media = MediaPlayer.create(this,R.raw.v6_rec);
+            //card_back_media = MediaPlayer.create(this,R.raw.v6_back_rec);
         }
 
         else  if(valueCheck.equals("v7")){
             card_front_image.setImageResource(R.drawable.v7_front);
             card_back_image.setImageResource(R.drawable.v7_back);
 
-            card_front_media = MediaPlayer.create(this,R.raw.v7_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v7_back_rec);
+            //card_front_media = MediaPlayer.create(this,R.raw.v7_rec);
+            //card_back_media = MediaPlayer.create(this,R.raw.v7_back_rec);
         }
 
         else  if(valueCheck.equals("v8")){
             card_front_image.setImageResource(R.drawable.v8_front);
             card_back_image.setImageResource(R.drawable.v8_back);
 
-            card_front_media = MediaPlayer.create(this,R.raw.v8_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v8_back_rec);
+      //      card_front_media = MediaPlayer.create(this,R.raw.v8_rec);
+    //        card_back_media = MediaPlayer.create(this,R.raw.v8_back_rec);
         }
 
         else  if(valueCheck.equals("v9")){
             card_front_image.setImageResource(R.drawable.v9_front);
             card_back_image.setImageResource(R.drawable.v9_back);
 
-            card_front_media = MediaPlayer.create(this,R.raw.v9_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v9_back_rec);
+           // card_front_media = MediaPlayer.create(this,R.raw.v9_rec);
+            //card_back_media = MediaPlayer.create(this,R.raw.v9_back_rec);
         }
 
         else  if(valueCheck.equals("v10")){
             card_front_image.setImageResource(R.drawable.v10_front);
             card_back_image.setImageResource(R.drawable.v10_back);
 
-            card_front_media = MediaPlayer.create(this,R.raw.v10_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v10_back_rec);
+            //card_front_media = MediaPlayer.create(this,R.raw.v10_rec);
+            //card_back_media = MediaPlayer.create(this,R.raw.v10_back_rec);
         }
 
         else  if(valueCheck.equals("v11")){
             card_front_image.setImageResource(R.drawable.v11_front);
             card_back_image.setImageResource(R.drawable.v11_back);
 
-            card_front_media = MediaPlayer.create(this,R.raw.v11_rec);
-            card_back_media = MediaPlayer.create(this,R.raw.v11_back_rec);
+            //card_front_media = MediaPlayer.create(this,R.raw.v11_rec);
+            //card_back_media = MediaPlayer.create(this,R.raw.v11_back_rec);
         }
 
 

@@ -16,11 +16,8 @@ public class content_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_1);
 
-        mediaV1 = MediaPlayer.create(this,R.raw.v1_rec);
-        mediaV2 = MediaPlayer.create(this,R.raw.v2_rec);
+        //mediaV1 = MediaPlayer.create(this,R.raw.v1_rec);
 
-        mediaV3 = MediaPlayer.create(this,R.raw.v3_rec);
-        mediaV4 = MediaPlayer.create(this,R.raw.v4_rec);
 
 
 
@@ -28,14 +25,27 @@ public class content_1 extends AppCompatActivity {
 
     public void clickNew(View v)
     {
-        if(v.getId() == R.id.shore_o_id)
+        if(v.getId() == R.id.shore_o_id){
+            mediaV1 = MediaPlayer.create(this,R.raw.shore_o);
             mediaV1.start();
-        if(v.getId() == R.id.shore_a_id)
-            mediaV2.start();
-        if(v.getId() == R.id.hrossho_e_id)
-            mediaV3.start();
-        if(v.getId() == R.id.dirgho_e_id)
-            mediaV4.start();
+
+        }
+        if(v.getId() == R.id.shore_a_id){
+            mediaV1 = MediaPlayer.create(this,R.raw.shore_a);
+            mediaV1.start();
+        }
+        if(v.getId() == R.id.hrossho_e_id)     {
+            mediaV1 = MediaPlayer.create(this,R.raw.hrossho_e);
+        mediaV1.start();
+        }
+        if(v.getId() == R.id.dirgho_e_id)          {
+            mediaV1 = MediaPlayer.create(this,R.raw.dirgho_e);
+              mediaV1.start();
+        }
+        if(v.getId() == R.id.hrossho_u_id){
+            mediaV1 = MediaPlayer.create(this,R.raw.hrossho_u);
+        mediaV1.start();
+        }
     }
 
 }

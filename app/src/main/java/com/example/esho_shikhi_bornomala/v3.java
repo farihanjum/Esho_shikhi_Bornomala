@@ -1,5 +1,6 @@
 package com.example.esho_shikhi_bornomala;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,7 +17,8 @@ public class v3 extends Fragment {
             Bundle savedInstanceState) {
         View
                 root = inflater.inflate(R.layout.v3, container, false);
-
+        MediaPlayer media_v3 = MediaPlayer.create(getActivity(), R.raw.content_3_v4);
+        media_v3.start();
         return root;
     }
 }

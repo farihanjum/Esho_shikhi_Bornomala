@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".content_2">
+
+    android:id="@+id/blah">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/ka_id"
+                android:layout_width="80dp"
+                android:paddingLeft="3dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:onClick="clickNew"
+                android:src="@drawable/ka"
+                />
+
+            <ImageView
+                android:id="@+id/kha_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:onClick="clickNew"
+                android:src="@drawable/kha"
+                />
+
+
+            <ImageView
+                android:id="@+id/ga_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:onClick="clickNew"
+
+                android:src="@drawable/ga"
+
+                />
+
+            <ImageView
+                android:id="@+id/gha_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:onClick="clickNew"
+
+                android:src="@drawable/gha"
+
+                />
+
+            <ImageView
+                android:id="@+id/umo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/umo"
+                android:onClick="clickNew"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:id="@+id/ca_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/ca"
+                />
+
+
+            <ImageView
+                android:id="@+id/cha_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/cha"
+
+                />
+
+            <ImageView
+                android:id="@+id/ja_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/ja"
+
+                />
+
+            <ImageView
+                android:id="@+id/jha_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/jha"
+                />
+
+            <ImageView
+                android:id="@+id/eoo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/eoo"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/to_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/to"
+
+                />
+
+            <ImageView
+                android:id="@+id/tha_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/tha"
+
+                />
+
+            <ImageView
+                android:id="@+id/da_id"
+                android:layout_width="80dp"
+                android:paddingLeft="3dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/da"
+                />
+
+            <ImageView
+                android:id="@+id/dha_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/dha"
+                />
+
+            <ImageView
+                android:id="@+id/murdhonno_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/murdhonno"
+
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/taa_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/taa"
+                />
+
+
+            <ImageView
+                android:id="@+id/thaa_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/thaa"
+                />
+
+            <ImageView
+                android:id="@+id/doo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/doo"
+                />
+
+            <ImageView
+                android:id="@+id/dhaa_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/dhaa"
+
+                />
+
+            <ImageView
+                android:id="@+id/na_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/na"
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/pa_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/pa"
+                />
+
+
+            <ImageView
+                android:id="@+id/foo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/foo"
+                />
+
+
+            <ImageView
+                android:id="@+id/bo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/bo"
+
+                />
+
+            <ImageView
+                android:id="@+id/vha_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/vha"
+
+                />
+
+            <ImageView
+                android:id="@+id/ma_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/ma"
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/antejjo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/antejjo"
+                />
+
+            <ImageView
+                android:id="@+id/roo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/roo"
+
+                />
+
+            <ImageView
+                android:id="@+id/loo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/loo"
+
+                />
+
+            <ImageView
+                android:id="@+id/boo_id"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:src="@drawable/boo"
+                />
+
+
+            <ImageView
+                android:id="@+id/sho_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/sha"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+
+            <ImageView
+                android:id="@+id/so_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/so"
+
+                />
+
+
+            <ImageView
+                android:id="@+id/katasho_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/katasho"
+
+                />
+
+            <ImageView
+                android:id="@+id/hoo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/hoo"
+                />
+
+            <ImageView
+                android:id="@+id/doi_bindu_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/doi_bindu"
+                />
+
+            <ImageView
+                android:id="@+id/dhoi_bindu_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/dhoi_bindu"
+
+                />
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/antesto_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/antesto"
+
+                />
+
+            <ImageView
+                android:id="@+id/khondo_to_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/khondo_to"
+                />
+
+            <ImageView
+                android:id="@+id/anurshor_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/anurshor"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/bisorgo_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/bisorgo"
+
+                />
+
+            <ImageView
+                android:id="@+id/chondro_bindu_id"
+                android:layout_width="80dp"
+                android:layout_height="75dp"
+                android:clickable="true"
+                android:src="@drawable/chondro_bindu"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
