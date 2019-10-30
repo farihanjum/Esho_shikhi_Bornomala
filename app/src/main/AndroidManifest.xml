@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mw_v1"></activity>
+        <activity android:name=".mw_consonants"></activity>
+        <activity android:name=".content_5" />
+        <activity android:name=".con6" />
+        <activity android:name=".con5" />
+        <activity android:name=".con4" />
+        <activity android:name=".con3" />
+        <activity android:name=".con2" />
+        <activity android:name=".con1" />
+        <activity android:name=".content_2" />
+        <activity android:name=".mw_v1" />
         <activity android:name=".content_4" />
         <activity
             android:name=".content_3"

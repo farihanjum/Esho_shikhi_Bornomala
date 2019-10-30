@@ -68,6 +68,7 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:clickable="true"
+            android:onClick="clickNew"
             android:src="@drawable/hrossho_u"
             />
 

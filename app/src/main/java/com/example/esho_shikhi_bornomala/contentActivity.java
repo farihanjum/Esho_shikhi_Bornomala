@@ -61,8 +61,8 @@ public class contentActivity extends AppCompatActivity {
 
                 if(position==1)
                 {
-                  //  Intent content2Intent =new Intent(contentActivity.this,content_2.class);
-                  //  startActivity(content2Intent);
+                   Intent content2Intent =new Intent(contentActivity.this,content_2.class);
+                    startActivity(content2Intent);
                 }
                 if(position==2)
                 {
@@ -76,12 +76,12 @@ public class contentActivity extends AppCompatActivity {
                     Intent content4Intent =new Intent(contentActivity.this,content_4.class);
                     startActivity(content4Intent);
                 }
-/*
+
                 if(position==4)
                 {
                     Intent content5Intent =new Intent(contentActivity.this,content_5.class);
                     startActivity(content5Intent);
-                }*/
+                }
 
 
             }
