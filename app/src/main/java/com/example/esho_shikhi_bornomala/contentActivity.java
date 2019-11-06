@@ -83,6 +83,14 @@ public class contentActivity extends AppCompatActivity {
                     startActivity(content5Intent);
                 }
 
+                if(position==5)
+                {
+                    Intent exercise =new Intent(contentActivity.this,exercise.class);
+                    startActivity(exercise);
+                }
+
+
+
 
             }
         });
