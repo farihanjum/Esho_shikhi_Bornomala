@@ -37,7 +37,7 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
             R.string.v11_text};
 
     int[] imageGula = {R.drawable.oli, R.drawable.aam, R.drawable.idur, R.drawable.eagle, R.drawable.camel,
-            R.drawable.usha, R.drawable.hrishi, R.drawable.ektara, R.drawable.oju, R.drawable.oshudh};
+            R.drawable.usha, R.drawable.hrishi, R.drawable.ektara, R.drawable.oirabot,R.drawable.oju, R.drawable.oshudh};
 
     int[] blankString = {R.string.v1_blank_string, R.string.v2_blank_string, R.string.v3_blank_string, R.string.v4_blank_string, R.string.v5_blank_string,
             R.string.v6_blank_string, R.string.v7_blank_string, R.string.v8_blank_string, R.string.v9_blank_string, R.string.v10_blank_string,
@@ -77,13 +77,14 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                underscore.setText("______");
-                underscore.setTextSize(TypedValue.COMPLEX_UNIT_SP, 30);
+             //   underscore.setText("______");
+              //  underscore.setTextSize(TypedValue.COMPLEX_UNIT_SP, 30);
                 Click++;
                 if (flag == 1) {
+                    flag = 0;
 
 
-                    x = (int) (Math.random() * ((5 - 0) + 1));
+                    x = (int) (Math.random() * ((10 - 0) + 1));
 
 
                     BlankText.setText(blankString[x]);
@@ -120,7 +121,8 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
                     radioButton4.setText(vowels[rbPosition[3]]);
 
 
-                    flag = 0;
+
+
 
 
                 }
@@ -138,12 +140,26 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
                                                                     String text = getResources().getString(vowels[x]);
                                                                     if (radiobutton.getText().equals(text)) {
                                                                         showGreenToast();
-                                                                        underscore.setText(text);
+
+
+                                                                        radioButton4.setChecked(false);
+                                                                        radioButton3.setChecked(false);
+                                                                        radioButton2.setChecked(false);
+                                                                        radioButton1.setChecked(false);
+
+                                                                        // underscore.setText(text);
                                                                         flag = 1;
                                                                         //  Toast.makeText(getBaseContext(), text, Toast.LENGTH_SHORT).show();
                                                                         //
-                                                                    } else
-                                                                        showYellowToast();
+                                                                    } else if(flag==0){
+
+                                                                        radioButton4.setChecked(false);
+                                                                        radioButton3.setChecked(false);
+                                                                        radioButton2.setChecked(false);
+                                                                        radioButton1.setChecked(false);
+
+
+                                                                        showYellowToast();}
 
                                                                 }
                                                             }

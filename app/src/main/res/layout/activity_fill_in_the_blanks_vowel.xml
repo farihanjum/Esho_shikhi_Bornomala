@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:text="জগর"
             android:textColor="#050404"
-            android:textSize="80dp"
+            android:textSize="60dp"
             />
     </LinearLayout>
     <LinearLayout
