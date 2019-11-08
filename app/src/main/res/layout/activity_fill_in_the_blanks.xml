@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FillInTheBlanks"
+    android:background="@drawable/gradient">
+
+    <Button
+        android:background="@drawable/gradient"
+        android:id="@+id/fillInTHeBlanksVowelButton"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="স্বরবর্ণ "
+        android:textSize="20dp"
+        android:textColor="#E4DBDE"/>
+
+</LinearLayout>

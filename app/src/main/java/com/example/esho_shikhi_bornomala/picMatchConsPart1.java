@@ -3,6 +3,8 @@ package com.example.esho_shikhi_bornomala;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -72,8 +74,8 @@ public class picMatchConsPart1 extends AppCompatActivity {
                     ((ImageView) prevView).setImageResource(R.drawable.hidden1); // hide it
                 } else {
                     if (pos[prevPos][1] == pos[curPos][1]) { // match
-                        makeToast(" ** 😃😃😃😃😃 **");
-
+                       // makeToast(" ** 😃😃😃😃😃 **");
+                        showGreenToast();
                         // you can do whatever you do when a match is found (i just made them invisible)
                         ((ImageView) prevView).setVisibility(View.INVISIBLE);
                         ((ImageView) view).setVisibility(View.INVISIBLE);
@@ -81,8 +83,8 @@ public class picMatchConsPart1 extends AppCompatActivity {
                         prevPos = -1;
                         prevView = null;
                     } else { // not match
-                        makeToast(" ** 😔😔😔😔😔 ** ");
-
+                        //makeToast(" ** 😔😔😔😔😔 ** ");
+                        showYellowToast();
                         ((ImageView) prevView).setImageResource(R.drawable.hidden1); // hide the previous choice
 
                         prevPos = curPos;
@@ -93,4 +95,26 @@ public class picMatchConsPart1 extends AppCompatActivity {
             }
         });
     }
+
+    public void showGreenToast() {
+        LayoutInflater layoutInflater = getLayoutInflater();
+        View view = layoutInflater.inflate(R.layout.green_toast_item, null);
+        Toast toast = new Toast(this);
+        toast.setView(view);
+        toast.setDuration(Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 0);
+        toast.show();
+    }
+
+    public void showYellowToast() {
+        LayoutInflater layoutInflater = getLayoutInflater();
+        View view = layoutInflater.inflate(R.layout.yellow_toast_item, null);
+        Toast toast = new Toast(this);
+        toast.setView(view);
+        toast.setDuration(Toast.LENGTH_SHORT);
+        toast.setGravity(Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0, 0);
+        toast.show();
+    }
+
+
 }

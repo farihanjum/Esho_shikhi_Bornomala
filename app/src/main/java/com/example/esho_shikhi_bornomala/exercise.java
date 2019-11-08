@@ -17,12 +17,23 @@ public class exercise extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_exercise);
         buttonForPicMatching = (Button)findViewById(R.id.buttonForPicMatching);
+        Button buttonFillintheblanks = (Button)findViewById(R.id.buttonFillintheblanks);
+
         buttonForPicMatching.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Intent picMatchingExercise =new Intent(exercise.this,picMatching.class);
                 startActivity(picMatchingExercise);
+
+            }
+        });
+        buttonFillintheblanks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent fillInThBlanksExercise =new Intent(exercise.this,FillInTheBlanks.class);
+                startActivity(fillInThBlanksExercise);
 
             }
         });

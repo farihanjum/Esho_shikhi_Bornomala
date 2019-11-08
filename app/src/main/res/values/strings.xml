@@ -86,4 +86,30 @@
     <string name="title_activity_content_3">content_3</string>
     <string name="title_activity_content_5">content_5</string>
 
+    <string name="v1_text">অ</string>
+    <string name="v2_text"> আ </string>
+    <string name="v3_text">ই </string>
+    <string name="v4_text">ঈ</string>
+    <string name="v5_text">উ </string>
+
+    <string name="v6_text">ঊ </string>
+    <string name="v7_text">ঋ  </string>
+    <string name="v8_text">এ</string>
+    <string name="v9_text">ঐ </string>
+    <string name="v10_text">ও</string>
+    <string name="v11_text">ঔ</string>
+
+    <string name="v1_blank_string">লি  </string>
+    <string name="v2_blank_string">ম</string>
+    <string name="v3_blank_string">দুর</string>
+    <string name="v4_blank_string">গল</string>
+    <string name="v5_blank_string">ট</string>
+    <string name="v6_blank_string">ষা </string>
+    <string name="v7_blank_string">ষি </string>
+    <string name="v8_blank_string">কতারা </string>
+    <string name="v9_blank_string">রাবত </string>
+    <string name="v10_blank_string">যু</string>
+    <string name="v11_blank_string"> ষধ </string>
+
+
 </resources>
