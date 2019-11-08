@@ -4,14 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".exercise"
-    android:background="#A7F74C">
+    android:background="@drawable/gradient">
 
     <Button
         android:id="@+id/buttonForPicMatching"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:textSize="50dp"
+        android:background="@drawable/gradient"
         android:text="চলো ছবি মিলাই ">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/buttonFillintheblanks"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:textSize="50dp"
+        android:text="শূন্যস্থান পূরণ"
+        android:background="@drawable/gradient"
+        >
 
     </Button>
 

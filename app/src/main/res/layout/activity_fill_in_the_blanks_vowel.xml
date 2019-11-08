@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/gradient"
+    tools:context=".FillInTheBlanksVowel">
+
+    <ImageView
+        android:layout_margin="5dp"
+
+        android:id="@+id/imageForVowel"
+        android:padding="15dp"
+        android:background="#568521"
+
+        android:layout_width="170dp"
+        android:layout_height="180dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+
+
+        />
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingLeft="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:paddingRight="40dp"
+        android:onClick="onRadioClick"
+
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView_underscore"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="______"
+            android:textColor="#050404"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:id="@+id/blankTextForVowel"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="জগর"
+            android:textColor="#050404"
+            android:textSize="80dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioGroup
+            android:id="@+id/radioGroupForBlankText"
+            android:paddingTop="80dp"
+            android:paddingLeft="25dp"
+
+            android:layout_width="119dp"
+            android:layout_height="400dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbForBlank1"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:onClick="onRadioClick"
+                android:textColor="#050404"
+                android:textSize="50dp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/rbForBlank2"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:textColor="#050404"
+                android:onClick="onRadioClick"
+                android:textSize="50dp" />
+
+            <RadioButton
+                android:id="@+id/rbForBlank3"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:onClick="onRadioClick"
+                android:textColor="#050404"
+                android:textSize="50dp"
+
+                />
+
+            <RadioButton
+                android:id="@+id/rbForBlank4"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:textColor="#050404"
+                android:onClick="onRadioClick"
+                android:textSize="50dp" />
+
+        </RadioGroup>
+
+
+        <ImageView
+
+            android:layout_width="205dp"
+            android:layout_height="386dp"
+            android:src="@drawable/boy_for_fill_in_the_blanks" />
+
+
+
+
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="90dp"
+            android:layout_height= "70dp"
+            android:src="@drawable/arrow_for_fill_intheblanks_vowel"
+            android:layout_marginTop="300dp"
+            android:text="পরবর্তী  "
+
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

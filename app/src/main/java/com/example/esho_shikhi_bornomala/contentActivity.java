@@ -24,9 +24,10 @@ public class contentActivity extends AppCompatActivity {
 
     ListView contentsListView;
 
-    String[] contentGula = {" স্বরবর্ণ "," ব্যঞ্জনবর্ণ "," চলো শিখি(স্বরবর্ণ)  "," স্বরবর্ণের কিছু শব্দ ","চলো শিখি(ব্যঞ্জনবর্ণ) "," ব্যঞ্জনবর্ণের কিছু শব্দ  "," স্বরচিহ্ন  "," সংখ্যা  "};
+    String[] contentGula = {" স্বরবর্ণ "," ব্যঞ্জনবর্ণ "," চলো শিখি(স্বরবর্ণ)  "," স্বরবর্ণের কিছু শব্দ ","ব্যঞ্জনবর্ণের কিছু শব্দ ","  অনুশীলনী  "," স্বরচিহ্ন  "," সংখ্যা  "};
 
-    int[] imageGula={R.drawable.v1,R.drawable.c_1,R.drawable.cholo_shikhi_pic,R.drawable.v1_back,R.drawable.small_a_for_contents,R.drawable.aaa_kar_for_contents,R.drawable.ek_for_contents,R.drawable.one_for_contents};
+    int[] imageGula={R.drawable.v1,R.drawable.c_1,R.drawable.cholo_shikhi_pic,R.drawable.v1_back,R.drawable.c1_back
+            ,R.drawable.questionmark_for_exercise,R.drawable.aaa_kar_for_contents,R.drawable.one_for_contents};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,17 +39,6 @@ public class contentActivity extends AppCompatActivity {
         myAdapterForContents adapterForContents = new myAdapterForContents(this,contentGula,imageGula);
         contentsListView.setAdapter(adapterForContents);
 
-     /*   contentsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                  if(position==0){
-                      Toast.makeText(contentActivity.this,"a normal text",Toast.LENGTH_SHORT);
-                  }
-                if(position==0){
-                    Toast.makeText(contentActivity.this,"a normal text___2",Toast.LENGTH_SHORT);
-                }
-            }
-        });*/
 
         contentsListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
