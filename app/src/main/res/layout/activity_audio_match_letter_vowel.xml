@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/gradient"
+    tools:context=".audioMatchLetterVowel">
+
+    <ImageView
+
+        android:layout_margin="5dp"
+
+        android:id="@+id/imageOfMike"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:src="@drawable/question_mark_boy"
+
+
+        />
+
+
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:id="@+id/rbForAudio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:text="B"
+            android:onClick="onRadioClick"
+            android:textSize="70dp" />
+
+        <RadioButton
+            android:id="@+id/rbForAudio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:paddingRight="20dp"
+            android:onClick="onRadioClick"
+            android:paddingLeft="10dp"
+            android:textSize="70dp" />
+
+        <RadioButton
+            android:id="@+id/rbForAudio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:onClick="onRadioClick"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:textSize="70dp" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rbForAudio4"
+            android:layout_height="wrap_content"
+            android:paddingRight="20dp"
+            android:onClick="onRadioClick"
+            android:text="B"
+            android:textSize="70dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rbForAudio5"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:paddingRight="20dp"
+            android:paddingLeft="10dp"
+            android:onClick="onRadioClick"
+            android:textSize="70dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:id="@+id/rbForAudio6"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:onClick="onRadioClick"
+            android:textSize="70dp" />
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="420dp"
+        android:layout_height="250dp"
+        android:paddingLeft="20dp"
+        android:src="@drawable/image_of_mike"/>
+
+
+</LinearLayout>

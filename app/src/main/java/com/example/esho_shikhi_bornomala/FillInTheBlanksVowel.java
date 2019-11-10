@@ -25,7 +25,7 @@ import static android.os.Build.VERSION_CODES.M;
 public class FillInTheBlanksVowel extends AppCompatActivity {
     int Click=0;
     String valueCheck;
-    public MediaPlayer mediaV1, mediaV2, mediaV3, mediaV4;
+    public MediaPlayer mediaV1, mediaV2, mediaV3, mediaV4,mediaCheer;
 
     ImageView imageForVowel;
     TextView BlankText,underscore;
@@ -52,6 +52,7 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fill_in_the_blanks_vowel);
+        mediaCheer = MediaPlayer.create(this, R.raw.audiocheering);
 
 
         imageForVowel = (ImageView) findViewById(R.id.imageForVowel);
@@ -139,7 +140,8 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
                                                                     radiobutton = (RadioButton) findViewById(checkedId);
                                                                     String text = getResources().getString(vowels[x]);
                                                                     if (radiobutton.getText().equals(text)) {
-                                                                        showGreenToast();
+                                                                        //showGreenToast();
+                                                                        mediaCheer.start();
 
 
                                                                         radioButton4.setChecked(false);

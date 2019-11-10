@@ -2,6 +2,7 @@ package com.example.esho_shikhi_bornomala;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -14,6 +15,8 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class picMatchConsPart1 extends AppCompatActivity {
+
+    MediaPlayer mediaCheering;
 
     ImageView curView = null;
     private int countPair = 0;
@@ -75,7 +78,11 @@ public class picMatchConsPart1 extends AppCompatActivity {
                 } else {
                     if (pos[prevPos][1] == pos[curPos][1]) { // match
                        // makeToast(" ** 😃😃😃😃😃 **");
-                        showGreenToast();
+                       // showGreenToast();
+
+                        mediaCheering = MediaPlayer.create(picMatchConsPart1.this, R.raw.audiocheering);
+                        mediaCheering.start();
+
                         // you can do whatever you do when a match is found (i just made them invisible)
                         ((ImageView) prevView).setVisibility(View.INVISIBLE);
                         ((ImageView) view).setVisibility(View.INVISIBLE);

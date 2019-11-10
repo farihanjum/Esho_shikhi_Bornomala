@@ -4,12 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FillInTheBlanks"
-    android:background="@drawable/gradient">
+    tools:context=".AudioMatchLetter">
+
+
 
     <Button
         android:background="@drawable/gradient"
-        android:id="@+id/fillInTHeBlanksVowelButton"
+        android:id="@+id/audioMatchLetterVowelButton"
         android:layout_width="410dp"
         android:layout_height="200dp"
         android:text="স্বরবর্ণ "

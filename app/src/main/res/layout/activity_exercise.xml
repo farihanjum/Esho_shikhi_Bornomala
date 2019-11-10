@@ -10,7 +10,7 @@
 
     <Button
         android:id="@+id/buttonForPicMatching"
-        android:layout_width="400dp"
+        android:layout_width="410dp"
         android:layout_height="200dp"
         android:textSize="50dp"
         android:background="@drawable/gradient"
@@ -21,10 +21,22 @@
 
     <Button
         android:id="@+id/buttonFillintheblanks"
-        android:layout_width="400dp"
+        android:layout_width="410dp"
         android:layout_height="200dp"
         android:textSize="50dp"
         android:text="শূন্যস্থান পূরণ"
+        android:background="@drawable/gradient"
+        >
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/buttonAudioMatchLetter"
+        android:layout_width="410dp"
+        android:layout_height="200dp"
+        android:textSize="50dp"
+        android:text="শুনে বলো কোনটি সঠিক?"
         android:background="@drawable/gradient"
         >
 
