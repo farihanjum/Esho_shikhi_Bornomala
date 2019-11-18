@@ -11,7 +11,7 @@
     <Button
         android:id="@+id/buttonForPicMatching"
         android:layout_width="410dp"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:textSize="50dp"
         android:background="@drawable/gradient"
         android:text="চলো ছবি মিলাই ">
@@ -22,7 +22,7 @@
     <Button
         android:id="@+id/buttonFillintheblanks"
         android:layout_width="410dp"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:textSize="50dp"
         android:text="শূন্যস্থান পূরণ"
         android:background="@drawable/gradient"
@@ -34,9 +34,22 @@
     <Button
         android:id="@+id/buttonAudioMatchLetter"
         android:layout_width="410dp"
-        android:layout_height="200dp"
+        android:layout_height="180dp"
         android:textSize="50dp"
         android:text="শুনে বলো কোনটি সঠিক?"
+        android:background="@drawable/gradient"
+        >
+
+    </Button>
+
+
+
+    <Button
+        android:id="@+id/buttonSentenceMaking"
+        android:layout_width="410dp"
+        android:layout_height="180dp"
+        android:textSize="50dp"
+        android:text="বাক্য  গঠন "
         android:background="@drawable/gradient"
         >
 

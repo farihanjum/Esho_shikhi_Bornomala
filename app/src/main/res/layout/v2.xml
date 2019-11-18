@@ -8,6 +8,7 @@
     android:background="@color/colorAccent"
 >
     <ImageView
+        android:id="@+id/content3_v2_ivid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/content3_v2"/>

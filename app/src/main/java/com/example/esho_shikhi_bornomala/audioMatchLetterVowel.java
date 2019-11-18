@@ -189,6 +189,8 @@ public class audioMatchLetterVowel extends AppCompatActivity {
             radioButton3.setChecked(false);
             radioButton2.setChecked(false);
             radioButton1.setChecked(false);
+            radioButton5.setChecked(false);
+            radioButton6.setChecked(false);
 
             // showGreenToast();
             flag = 1;

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class exercise extends AppCompatActivity {
 
-    Button buttonForPicMatching,buttonFillintheblanks,buttonAudioMatchLetter;
+    Button buttonForPicMatching,buttonFillintheblanks,buttonAudioMatchLetter,buttonSentenceMaking;
 
 
     @Override
@@ -19,7 +19,7 @@ public class exercise extends AppCompatActivity {
         buttonForPicMatching = (Button)findViewById(R.id.buttonForPicMatching);
         buttonFillintheblanks = (Button)findViewById(R.id.buttonFillintheblanks);
         buttonAudioMatchLetter = (Button)findViewById(R.id.buttonAudioMatchLetter);
-
+        buttonSentenceMaking= (Button)findViewById(R.id.buttonSentenceMaking);
         buttonForPicMatching.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,5 +46,13 @@ public class exercise extends AppCompatActivity {
                         startActivity(audioMatchLetterExercise);
             }
         });
-    }
+
+
+        buttonSentenceMaking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sentenceMakingexercise = new Intent(exercise.this,sentenceMaking.class);
+                startActivity(sentenceMakingexercise);
+            }
+        });    }
 }

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient"
+    android:layout_height="match_parent"
+    tools:context=".sentenceMaking"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:paddingTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:id="@+id/picMatch_option_1"
+                android:src="@drawable/blanksentence1"
+                ></ImageView>
+
+
+            <Button
+                android:id="@+id/button_text_option_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:text=" কলম"
+                android:textSize="30dp"
+                android:background="@drawable/gradient">
+
+            </Button>
+
+
+            <ImageView
+                android:id="@+id/picMatch_option_3"
+                android:paddingTop="20dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/blanksentence2"
+
+                >
+
+            </ImageView>
+
+
+            <Button
+                android:id="@+id/button_text_option_3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="খরগোশ"
+                android:background="@drawable/gradient"
+                android:textSize="30dp">
+
+            </Button>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:paddingTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/picMatch_option_2"
+
+
+                android:paddingRight="60dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:src="@drawable/blanksentence3">
+            </ImageView>
+
+            <Button
+                android:id="@+id/button_text_option_2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:text="গরু"
+                android:background="@drawable/gradient"
+                android:textSize="30dp">
+
+            </Button>
+
+
+
+            <ImageView
+
+                android:paddingTop="20dp"
+                android:paddingRight="60dp"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:id="@+id/picMatch_option_4"
+
+                android:src="@drawable/blanksentence4"
+                >
+
+            </ImageView>
+
+
+
+
+            <Button
+                android:id="@+id/button_text_option_4"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:text="ঘড়ি"
+                android:background="@drawable/gradient"
+                android:textSize="30dp">
+
+            </Button>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="70dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:background="@drawable/gradient"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text=" ______ ">
+        </TextView>
+        <TextView
+            android:id="@+id/blankSentenceTextViewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="30dp"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:text="দিয়ে লেখা যায় ">
+        </TextView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

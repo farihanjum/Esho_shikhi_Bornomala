@@ -1,3 +1,5 @@
+
+
 <resources>
     <string name="app_name">Esho_shkhi</string>
 
@@ -110,6 +112,29 @@
     <string name="v9_blank_string">রাবত </string>
     <string name="v10_blank_string">যু</string>
     <string name="v11_blank_string"> ষধ </string>
+
+    <string name="c1_sentence">দিয়ে লেখা যায়</string>
+    <string name="c2_sentence">তুই খেতে  যায়   </string>
+    <string name="c3_sentence">দুধে পুষ্টি আছে</string>
+    <string name="c4_sentence">রাখো হাতের কাছে</string>
+    <string name="c5_sentence">বাঁকা হয়</string>
+    <string name="c6_sentence">চোখে চশমা আছে</string>
+    <string name="c7_sentence">লাগে বৃষ্টি হলে</string>
+    <string name="c8_sentence">চলে সাগর জলে</string>
+    <string name="c9_sentence">থেকে মুক্ত মিলে</string>
+    <string name="c10_sentence">ভাইয়ের দাঁড়ি গালে</string>
+
+    <string name="c1_button_text_sentence">কলম</string>
+    <string name="c2_button_text_sentence">খরগোশ</string>
+    <string name="c3_button_text_sentence">গরু</string>
+    <string name="c4_button_text_sentence">ঘড়ি</string>
+    <string name="c5_button_text_sentence">রংধনু</string>
+    <string name="c6_button_text_sentence">চশমা</string>
+    <string name="c7_button_text_sentence">ছাতা</string>
+    <string name="c8_button_text_sentence">জাহাজ</string>
+    <string name="c9_button_text_sentence">ঝিনুক</string>
+    <string name="c10_button_text_sentence">মিঞা</string>
+
 
 
 </resources>

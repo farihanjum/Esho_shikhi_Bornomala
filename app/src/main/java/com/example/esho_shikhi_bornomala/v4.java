@@ -16,7 +16,7 @@ public class v4 extends Fragment {
             Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.v4, container, false);
         MediaPlayer media_v4 = MediaPlayer.create(getActivity(), R.raw.content_3_v4);
-        media_v4.start();
+       // media_v4.start();
         return root;
     }
 }

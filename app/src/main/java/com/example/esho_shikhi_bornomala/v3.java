@@ -18,7 +18,7 @@ public class v3 extends Fragment {
         View
                 root = inflater.inflate(R.layout.v3, container, false);
         MediaPlayer media_v3 = MediaPlayer.create(getActivity(), R.raw.content_3_v4);
-        media_v3.start();
+       // media_v3.start();
         return root;
     }
 }
