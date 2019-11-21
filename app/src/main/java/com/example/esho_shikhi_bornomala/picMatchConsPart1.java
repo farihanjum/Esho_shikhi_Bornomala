@@ -77,8 +77,6 @@ public class picMatchConsPart1 extends AppCompatActivity {
                     ((ImageView) prevView).setImageResource(R.drawable.hidden1); // hide it
                 } else {
                     if (pos[prevPos][1] == pos[curPos][1]) { // match
-                       // makeToast(" ** 😃😃😃😃😃 **");
-                       // showGreenToast();
 
                         mediaCheering = MediaPlayer.create(picMatchConsPart1.this, R.raw.audiocheering);
                         mediaCheering.start();
@@ -90,7 +88,6 @@ public class picMatchConsPart1 extends AppCompatActivity {
                         prevPos = -1;
                         prevView = null;
                     } else { // not match
-                        //makeToast(" ** 😔😔😔😔😔 ** ");
                         showYellowToast();
                         ((ImageView) prevView).setImageResource(R.drawable.hidden1); // hide the previous choice
 

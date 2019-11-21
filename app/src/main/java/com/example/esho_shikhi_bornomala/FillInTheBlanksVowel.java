@@ -43,8 +43,8 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
             R.string.v6_blank_string, R.string.v7_blank_string, R.string.v8_blank_string, R.string.v9_blank_string, R.string.v10_blank_string,
             R.string.v11_blank_string};
 
-    int[] audios = {R.raw.shore_o, R.raw.shore_a, R.raw.hrossho_e, R.raw.dirgho_e, R.raw.hrossho_u, R.raw.shore_o, R.raw.shore_a,
-            R.raw.hrossho_e, R.raw.dirgho_e, R.raw.hrossho_u, R.raw.dirgho_e};
+    int[] audios = {R.raw.shore_o, R.raw.shore_a, R.raw.hrossho_e, R.raw.dirgho_e, R.raw.hrossho_u, R.raw.dirgho_u, R.raw.hrii,
+            R.raw.ee, R.raw.oiii, R.raw.oo, R.raw.ouu};
     int[] rbPosition = new int[5];
 
 
@@ -91,15 +91,6 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
                     BlankText.setText(blankString[x]);
                     imageForVowel.setImageResource(imageGula[x]);
 
-                    //   int xRadio = (int) (Math.random() * ((3 - 1) + 1));
-
-
-                    //   int y = (int) (Math.random() * ((3 - 0) + 1)) + 1;//for radiobutton
-
-                    rbPosition[0] = (int) (Math.random() * ((10 - 0) + 1));
-                    rbPosition[1] = (int) (Math.random() * ((10 - 0) + 1));
-                    rbPosition[2] = (int) (Math.random() * ((10- 0) + 1));
-                    rbPosition[3] = (int) (Math.random() * ((10 - 0) + 1));
 
 
                     while (rbPosition[0] == rbPosition[1] || rbPosition[1] == rbPosition[2] || rbPosition[2] == rbPosition[3] ||
@@ -107,8 +98,7 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
                             rbPosition[0] == x || rbPosition[1] == x || rbPosition[2] == x || rbPosition[3] == x) {
 
                         rbPosition[0] = (int) (Math.random() * ((10 - 0) + 1));
-
-                        rbPosition[1] = (int) (Math.random() * ((10- 0) + 1));
+                        rbPosition[1] = (int) (Math.random() * ((10 - 0) + 1));
                         rbPosition[2] = (int) (Math.random() * ((10 - 0) + 1));
                         rbPosition[3] = (int) (Math.random() * ((10 - 0) + 1));
                     }
@@ -137,6 +127,7 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
         radioGroupFillInTheBlank.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
                                                                 @Override
                                                                 public void onCheckedChanged(RadioGroup group, int checkedId) {
+
                                                                     radiobutton = (RadioButton) findViewById(checkedId);
                                                                     String text = getResources().getString(vowels[x]);
                                                                     if (radiobutton.getText().equals(text)) {
@@ -149,10 +140,8 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
                                                                         radioButton2.setChecked(false);
                                                                         radioButton1.setChecked(false);
 
-                                                                        // underscore.setText(text);
                                                                         flag = 1;
-                                                                        //  Toast.makeText(getBaseContext(), text, Toast.LENGTH_SHORT).show();
-                                                                        //
+
                                                                     } else if(flag==0){
 
                                                                         radioButton4.setChecked(false);
@@ -170,7 +159,7 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
 
     }
 
-
+/*
     public void showGreenToast() {
         LayoutInflater layoutInflater = getLayoutInflater();
         View view = layoutInflater.inflate(R.layout.green_toast_item, null);
@@ -180,7 +169,7 @@ public class FillInTheBlanksVowel extends AppCompatActivity {
         toast.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL, 0, 0);
         toast.show();
     }
-
+*/
     public void showYellowToast() {
         LayoutInflater layoutInflater = getLayoutInflater();
         View view = layoutInflater.inflate(R.layout.yellow_toast_item, null);

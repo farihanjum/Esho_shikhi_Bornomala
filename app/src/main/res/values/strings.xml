@@ -1,7 +1,7 @@
 
 
 <resources>
-    <string name="app_name">Esho_shkhi</string>
+    <string name="app_name">এসো শিখি বর্ণমালা </string>
 
     <string-array name="contentsStringArray">
         <item> স্বরবর্ণ </item>
